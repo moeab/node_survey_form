@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form method="post" action="/result">
+		Your Name:<input type="text" name="name"><br>
+		Dojo Location:
+		<select name="location">
+			<option value="Los Angeles" selected>Los Angeles</option>
+			<option value="New York" >New York</option>
+			<option value="San Fransisco" >San Fransisco</option>
+		</select><br>
+		Favorite Language:
+		<select name="language">
+			<option value="JavaScript" selected>JavaScript</option>
+			<option value="Java">Java</option>
+			<option value="PHP">PHP</option>
+			<option value="Ruby">Ruby</option>
+		</select><br>
+		Commment (optional):<br><textarea name="comment"></textarea><br>
+		<input type="submit">
+	</form>
+</body>
+</html>
