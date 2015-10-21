@@ -1,6 +1,6 @@
 {
-  "name": "Sample_Express",
-  "description": "Sample Express Application to test out using Package.json to install dependencies",
+  "name": "survey_form",
+  "description": "Sample Express Application / bootcamp Node.js assignment",
   "dependencies": {
     "body-parser": "^1.14.1",
     "ejs": "^2.3.4",
